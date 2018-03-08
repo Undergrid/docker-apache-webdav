@@ -1,0 +1,7 @@
+#!/usr/bin/with-contenv bash
+
+[[ ! -f /config/apache/user.passwd ]] && \
+	cp /defaults/user.passwd /config/apache/user.passwd
+
+chown abc:abc /config/apache/user.passwd
+chmod 640 /config/apache/user.passwd

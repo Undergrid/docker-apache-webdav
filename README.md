@@ -104,5 +104,5 @@ Monitor the logs of the container in realtime `docker logs -f apache-webdav`.
 
 ## Versions
 
-+ **xx.03.17:** Initial Release
++ **08.03.17:** Initial Release
 
